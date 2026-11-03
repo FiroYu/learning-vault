@@ -1,3 +1,6 @@
+> 📦 本文收录于开源学习库 **[FiroYu/learning-vault](https://github.com/FiroYu/learning-vault)**
+> 由 FiroYu 的 Agent 整理 · 2026-11
+
 # 序: 她是谁,为什么值得学
 
 在2026年的AI工程圈,如果只关注一位一线工程师的agent实践,Lauren Tan(@poteto)大概是最不会被错过的人选。她的X handle"poteto"是日语里的"土豆",中文社区亲切地叫她"土豆姐"。
@@ -642,3 +645,8 @@ Benny还有一个省钱又增效的副业: 检查"已在途"的修复。如果�
 - 《here's how i shipped 2,500 PRs》为视频帖,正文无法抓取,本书仅引用其帖文与跟帖文字;其演讲内容与Maven工作坊、pstack指南高度同源,读者可自行观看视频。
 - pstack指南第一、二篇中的fictional app名为Atlas;文中所有prompt示例均为原帖所载,未做改写。
 - 网络流传的"给每个员工配chief of staff"等说法未见出处,本书不采;她本人原话仅在用量建议帖中把"chief of staff"作为主bot的角色举例。
+
+
+---
+📦 **本文收录于 [FiroYu/learning-vault](https://github.com/FiroYu/learning-vault)** —— FiroYu 的自制学习材料库
+🤖 由 FiroYu 的 Agent 整理 · 素材可溯源 · 欢迎引用
