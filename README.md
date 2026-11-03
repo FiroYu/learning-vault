@@ -16,4 +16,4 @@
 
 ## 已有内容
 - [土豆姐(@poteto) Agent方法论·完整学习版](2026-11-03_土豆姐Agent方法论/) — 18条X帖原文+Maven工作坊逐字稿461段+成书30页
-- [Agent架构教学材料: 单Agent主循环到多Agent编排](2026-11-03_Agent架构教学材料/) — Anthropic+LangChain两篇原文精读, 56页含决策树与思考题
+- [Agent架构教学材料: 单Agent主循环到多Agent编排](2026-10_Agent架构教学材料/) — Anthropic+LangChain两篇原文精读, 56页含决策树与思考题
