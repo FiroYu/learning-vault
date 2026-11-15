@@ -8,11 +8,11 @@
 
 ## 学习顺序
 
-1. [MIT Missing Semester 2026](#1-the-missing-semester-of-your-cs-education-2026新版) — 核心7讲, 全栈PM必刷
+1. [The Missing Semester of Your CS Education (2026新版)](#1-the-missing-semester-of-your-cs-education-2026新版) — MIT出品, 核心7讲, 全栈PM必刷
 2. [Anthropic Claude Code 101](#2-claude-code-101--claude-code-in-action) — 一晚上学完的官方工具课
-3. [DeepLearning.AI Claude Code课](#3-claude-code-a-highly-agentic-coding-assistant) — 三个实战项目演练
-4. [范德堡 Claude Code课](#4-claude-code-software-engineering-with-generative-ai-agents) — AI委派工程学
-5. ([UW–Madison资源库](#5-cs-ai-assisted-software-development-fall-2026-资源库) — 随时当字典查)
+3. [Claude Code: A Highly Agentic Coding Assistant](#3-claude-code-a-highly-agentic-coding-assistant) — DeepLearning.AI出品, 三个实战项目演练
+4. [Claude Code: Software Engineering with Generative AI Agents](#4-claude-code-software-engineering-with-generative-ai-agents) — 范德堡出品, AI委派工程学
+5. ([CS: AI-Assisted Software Development 资源库](#5-cs-ai-assisted-software-development-fall-2026-资源库) — UW–Madison, 随时当字典查)
 6. 交付里程碑2
 
 ## 课程详情
@@ -119,6 +119,6 @@
 
 - [ ] Missing Semester核心7讲笔记读完(系统路径: 全部9讲+练习)
 - [ ] Claude Code 101 + in Action学完
-- [ ] DLAI Claude Code三个项目跑通(至少复刻Figma→Playwright闭环)
+- [ ] DeepLearning.AI Claude Code课三个项目跑通(至少复刻Figma→Playwright闭环)
 - [ ] 范德堡课学完, 迭代Checklist内化
 - [ ] 里程碑2交付

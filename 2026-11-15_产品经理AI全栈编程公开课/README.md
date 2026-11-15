@@ -13,7 +13,7 @@
 
 传统路线让初学者花数百小时背语法、手写算法; 在AI编程Agent高度成熟的2026年, 软件开发的瓶颈已从"代码生成速度"转移到**架构边界定义、上下文控制与正确性验证**。
 
-MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习生(Manager and Intern)**": 实习生(Agent)负责执行繁琐的代码编写与工具调用, 经理(你)必须提供清晰的架构方向、安全护栏与验收反馈。
+MIT《The Missing Semester of Your CS Education》2026新版给出的最佳心智模型是"**经理与实习生(Manager and Intern)**": 实习生(Agent)负责执行繁琐的代码编写与工具调用, 经理(你)必须提供清晰的架构方向、安全护栏与验收反馈。
 
 你的PM优势可以直接迁移为工程能力:
 
@@ -45,17 +45,17 @@ MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习�
 | 阶段 | 周次 | 主题 | 核心课程 | 实战交付物(里程碑) |
 |---|---|---|---|---|
 | [一](01-阶段一_编程思维与软件构造.md) | 第1–2周 | 编程思维破冰与软件构造基本原则 | AI Python for Beginners · CS50P挑读 · CS106A挑读 · MIT 6.1020精读 | 模块化Python自动化工具(含规约注释+单元测试) |
-| [二](02-阶段二_工程工具链与Agent工程化.md) | 第3–4周 | 现代工程工具链与AI Agent架构师方法论 | MIT Missing Semester 2026 · Claude Code 101 · DLAI Claude Code · 范德堡Claude Code · UW–Madison资源库 | "AI工程标准脚手架"仓库(CLAUDE.md+CI) |
+| [二](02-阶段二_工程工具链与Agent工程化.md) | 第3–4周 | 现代工程工具链与AI Agent架构师方法论 | The Missing Semester of Your CS Education (MIT, 2026新版) · Claude Code 101 & in Action (Anthropic) · Claude Code: A Highly Agentic Coding Assistant (DeepLearning.AI) · Claude Code: Software Engineering with Generative AI Agents (Vanderbilt) · CS: AI-Assisted Software Development (UW–Madison) | "AI工程标准脚手架"仓库(CLAUDE.md+CI) |
 | [三](03-阶段三_内部工具与数据库.md) | 第5–6周 | 内部工具、关系型数据库与自动化后端上线 | SQLBolt · CS50 SQL精选 · Streamlit · Gradio · FastAPI+Supabase | 企业级内部工具上线交付同事使用 |
-| [四](04-阶段四_AI原理.md) | 第7–9周 | AI原理与 fundamentals* | CS50 AI (Intro to AI with Python) | AI应用毕业项目(系统路径可获免费证书) |
-| [五](05-阶段五_全栈网站开发.md) | 第10–13周 | 独立全栈网站开发、鉴权与生产部署 | Full Stack Open Part 0 · Next.js官方课程 · CS50W选修 | 带注册登录+数据库CRUD的全栈网站上线 |
-| [六](06-阶段六_跨平台App开发.md) | 第14–15周 | 跨平台移动App(iOS & Android)独立开发 | 斯坦福CS147L · FSO Part 10/CS193p按需 | React Native跨平台App真机交付 |
+| [四](04-阶段四_AI原理.md) | 第7–9周 | AI原理与 fundamentals* | CS50's Intro to Artificial Intelligence with Python (CS50 AI) | AI应用毕业项目(系统路径可获免费证书) |
+| [五](05-阶段五_全栈网站开发.md) | 第10–13周 | 独立全栈网站开发、鉴权与生产部署 | Full Stack Open Part 0 · React Foundations + Learn Next.js (Vercel官方) · CS50W选修 | 带注册登录+数据库CRUD的全栈网站上线 |
+| [六](06-阶段六_跨平台App开发.md) | 第14–15周 | 跨平台移动App(iOS & Android)独立开发 | CS147L: Cross-Platform Mobile App Development (斯坦福) · Full Stack Open Part 10 / CS193p: Developing Apps for iOS using SwiftUI 按需 | React Native跨平台App真机交付 |
 
 > \*阶段四为整理时新增的延伸阶段(原调研为四大模块五阶段), 理由与CS50家族逐门取舍见 [08-课程资源链接总表](08-课程资源链接总表.md)。
 
 ## 学习中必须内化的五大工程原则
 
-来自 MIT 6.1020 / 斯坦福CS106A / MIT Missing Semester 2026 / 范德堡Claude Code课的教学大纲核心, 贯穿全部六阶段:
+来自 MIT 6.1020 / 斯坦福CS106A / The Missing Semester of Your CS Education (2026新版) / 范德堡Claude Code课的教学大纲核心, 贯穿全部六阶段:
 
 1. **规约先行与契约式设计** — 在写任何函数实现之前先写规约(Write the spec before the body, every time)。规约精确定义输入前置条件、输出后置条件与隐含边界约定。AI时代直接体现为CLAUDE.md与功能规约文档。
 2. **问题拆解与Token感知的模块化架构** — 人类难以阅读的代码库, AI Agent同样难以驾驭。把复杂产品拆成高内聚小模块, 定义显式接口, 保持数据模型与视图分离, 让AI每次只在局部受控范围内施工。
@@ -72,7 +72,7 @@ MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习�
 | [02-阶段二_工程工具链与Agent工程化](02-阶段二_工程工具链与Agent工程化.md) | 5门课详情: Missing Semester / 三门Claude Code课 / UW–Madison |
 | [03-阶段三_内部工具与数据库](03-阶段三_内部工具与数据库.md) | 4门课详情: SQL / Streamlit / Gradio / FastAPI+Supabase |
 | [04-阶段四_AI原理](04-阶段四_AI原理.md) | 1门课详情: CS50 AI (新增延伸阶段) |
-| [05-阶段五_全栈网站开发](05-阶段五_全栈网站开发.md) | 3门课详情: Full Stack Open / Next.js官方课程 / CS50W |
+| [05-阶段五_全栈网站开发](05-阶段五_全栈网站开发.md) | 3门课详情: Full Stack Open / React Foundations + Learn Next.js / CS50W |
 | [06-阶段六_跨平台App开发](06-阶段六_跨平台App开发.md) | 3门课详情: CS147L / FSO Part 10 / CS193p + Vibe Coding备选 |
 | [07-附录_技术栈选型与AI开发SOP](07-附录_技术栈选型与AI开发SOP.md) | 场景A/B标准技术栈表 + AI Coding Agent八步工程守则 |
 | [08-课程资源链接总表](08-课程资源链接总表.md) | 全部20门课程/资源官方链接 + CS50家族取舍 + 扩展资源 + 来源说明 |
@@ -84,15 +84,15 @@ MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习�
 | 课程 | 机构 | 学时 | 深度要求 |
 |---|---|---|---|
 | AI Python for Beginners | DeepLearning.AI (Andrew Ng) | 17h | 必学·完整 |
-| CS50P | Harvard (David Malan) | 60h(全量) | 挑读4个专题 |
-| CS106A | Stanford (Chris Piech等) | 23讲(全量) | 挑读3份讲义 |
-| 6.1020 Software Construction | MIT | 19+ Reading(全量) | 精读4个Reading |
+| CS50's Introduction to Programming with Python (CS50P) | Harvard (David Malan) | 60h(全量) | 挑读4个专题 |
+| CS106A: Programming Methodology | Stanford (Chris Piech等) | 23讲(全量) | 挑读3份讲义 |
+| MIT 6.1020 Software Construction | MIT | 19+ Reading(全量) | 精读4个Reading |
 
 **模块二 现代工程工具链、Git与AI Agent工程化开发**(连接"懂一点语法"与"能指挥AI开发复杂工程"的最关键桥梁)
 
 | 课程 | 机构 | 学时 | 深度要求 |
 |---|---|---|---|
-| Missing Semester 2026新版 | MIT CSAIL | 9讲(9–20h) | 必刷·核心7讲 |
+| The Missing Semester of Your CS Education (2026新版) | MIT CSAIL | 9讲(9–20h) | 必刷·核心7讲 |
 | Claude Code 101 & in Action | Anthropic | ≈3h | 必修·一晚学完 |
 | Claude Code: A Highly Agentic Coding Assistant | DeepLearning.AI & Anthropic | 2h | 必修·三个实战项目 |
 | Claude Code: Software Engineering with Generative AI Agents | Vanderbilt (Dr. Jules White) | 5–6h | 必修·AI委派工程学 |
@@ -102,7 +102,7 @@ MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习�
 
 | 课程 | 机构/技术栈 | 学时 | 深度要求 |
 |---|---|---|---|
-| SQLBolt + CS50 SQL | SQLBolt / Harvard | 3–4h + 精选单元 | 必学 |
+| SQLBolt + CS50's Introduction to Databases with SQL | SQLBolt / Harvard | 3–4h + 精选单元 | 必学 |
 | Streamlit官方教程 + Coding Agent指南 | Streamlit | 4–6h | 必学·内部工具首选 |
 | Building Generative AI Applications with Gradio | DeepLearning.AI & HF | 59min | 必学·PoC利器 |
 | FastAPI官方教程 + Supabase实战 | FastAPI / Supabase | 4–6h | 必学·生产级后端 |
@@ -113,15 +113,15 @@ MIT《Missing Semester 2026》给出的最佳心智模型是"**经理与实习�
 |---|---|---|---|
 | Full Stack Open (Part 0 + 精选) | 赫尔辛基大学 | Part 0约2h | 必读Part 0 |
 | React Foundations + Learn Next.js | Vercel官方 | 12–15h(16章) | 强烈必学·网站主线 |
-| CS50W | Harvard | 96h(全量) | 选修4个专题周 |
-| CS147L跨平台App开发 | Stanford | 一学期 | App开发首选 |
-| CS193p SwiftUI | Stanford | 一学期 | 选修·纯苹果生态 |
-| Vibe Coding for Beginners | Google Cloud | 7h | 备选参考 |
+| CS50's Web Programming with Python and JavaScript (CS50W) | Harvard | 96h(全量) | 选修4个专题周 |
+| CS147L: Cross-Platform Mobile App Development | Stanford | 一学期 | App开发首选 |
+| CS193p: Developing Apps for iOS using SwiftUI | Stanford | 一学期 | 选修·纯苹果生态 |
+| Vibe Coding for Beginners: From Zero to App | Google Cloud | 7h | 备选参考 |
 
 **延伸模块 AI原理**(整理时新增, 排为阶段四, 见上文路线图表)
 
 | 课程 | 机构 | 学时 | 深度要求 |
 |---|---|---|---|
-| CS50's Intro to AI with Python | Harvard (Brian Yu) | 45–60h(全量, 整理者估算) | 系统: 全量+免费证书 / 极速: 概念级15–20h或跳过 |
+| CS50's Intro to Artificial Intelligence with Python | Harvard (Brian Yu) | 45–60h(全量, 整理者估算) | 系统: 全量+免费证书 / 极速: 概念级15–20h或跳过 |
 
 > 链接均经2026-11-15可用性抽查(20条中19条HTTP 200; fastapi.tiangolo.com为本机代理出口无法访问, 域名为官方权威域名)。课程链接与内容可能随时间变化, 以各官网为准。
