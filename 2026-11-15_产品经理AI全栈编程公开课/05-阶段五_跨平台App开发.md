@@ -87,6 +87,7 @@
 ## 结业之后
 
 五阶段走完, 你已具备"PM视角的AI全栈交付能力"。后续深化方向:
+- **AI原理补课(强推)**: CS50's Introduction to Artificial Intelligence with Python(<https://cs50.harvard.edu/ai/>) — 搜索/知识/不确定性/优化/机器学习/神经网络/NLP的Python从零实现。本路径偏"用AI工程化交付", 这门补"AI底层如何工作", 对写AI功能规约和理解模型边界价值高; 先修即CS50P水平的Python, 建议排在阶段三之后。免费证书机制同CS50系列
 - **工程深度**: 回头系统补CS50W完整项目、MIT 6.1020并发单元、UW–Madison Unit 2(RAG/监控)
 - **产品深化**: 用[场景A技术栈](06-附录_技术栈选型与AI开发SOP.md)持续交付团队内部工具; 用场景B栈迭代独立产品
 - **方法论迭代**: 关注 Missing Semester 与 Anthropic Academy 的课程更新, AI工程实践演化极快
