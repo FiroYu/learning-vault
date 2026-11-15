@@ -1,14 +1,14 @@
-# 05 · 阶段五: 跨平台移动App(iOS & Android)独立开发与上线(第11–12周)
+# 06 · 阶段六: 跨平台移动App(iOS & Android)独立开发与上线(第14–15周)
 
-> [专题总览](README.md) · [学习路径总览](00-学习路径总览.md) · 上一阶段 [阶段四](04-阶段四_全栈网站开发.md) · 附录 [技术栈与SOP](06-附录_技术栈选型与AI开发SOP.md)
+> [专题总览](README.md) · [学习路径总览](00-学习路径总览.md) · 上一阶段 [阶段五](05-阶段五_全栈网站开发.md) · 附录 [技术栈与SOP](07-附录_技术栈选型与AI开发SOP.md)
 
-**阶段目标**: 将阶段四掌握的TypeScript、React组件思维与Supabase后端无缝迁移至移动端, 掌握使用React Native开发跨平台iOS与Android独立App的完整能力。
+**阶段目标**: 将阶段五掌握的TypeScript、React组件思维与Supabase后端无缝迁移至移动端, 掌握使用React Native开发跨平台iOS与Android独立App的完整能力。
 
 ## 学习顺序
 
 1. [CS147L主课](#1-cs147l-cross-platform-mobile-app-development-autumn-2026) — React Native + Supabase
 2. 按需拓展: [FSO Part 10](#2-full-stack-open-part-10-react-native) 或 [CS193p](#3-cs193p-developing-apps-for-ios-using-swiftui-spring-2025)
-3. 交付里程碑5
+3. 交付里程碑6
 
 ## 课程详情
 
@@ -65,9 +65,9 @@
 
 **PM定制学习策略**: 选修补充。不支持免费旁听且偏重Google Cloud与Gemini生态入门; 在学完MIT Missing Semester与Anthropic免费课后, 仅作备选参考。
 
-## 里程碑5: 跨平台App交付
+## 里程碑6: 跨平台App交付
 
-**任务**: 基于React Native (Expo) + TypeScript + Supabase, 将阶段四独立网站的核心功能(或全新的移动端产品创意)构建为跨平台移动App。
+**任务**: 基于React Native (Expo) + TypeScript + Supabase, 将阶段五独立网站的核心功能(或全新的移动端产品创意)构建为跨平台移动App。
 
 **架构要点**: 与Web端共享同一个Supabase PostgreSQL数据库与用户鉴权体系——一套后端, 双端复用。
 
@@ -82,12 +82,12 @@
 
 - [ ] CS147L核心主题学完(状态/样式/异步/Hooks/导航/存储)
 - [ ] 在Claude Code或Cursor辅助下完成至少1个课程项目(A2–A4任选)
-- [ ] 里程碑5交付, 真机可演示
+- [ ] 里程碑6交付, 真机可演示
 
 ## 结业之后
 
-五阶段走完, 你已具备"PM视角的AI全栈交付能力"。后续深化方向:
-- **AI原理补课(强推)**: CS50's Introduction to Artificial Intelligence with Python(<https://cs50.harvard.edu/ai/>) — 搜索/知识/不确定性/优化/机器学习/神经网络/NLP的Python从零实现。本路径偏"用AI工程化交付", 这门补"AI底层如何工作", 对写AI功能规约和理解模型边界价值高; 先修即CS50P水平的Python, 建议排在阶段三之后。免费证书机制同CS50系列
+六个阶段走完, 你已具备"PM视角的AI全栈交付能力"。后续深化方向:
 - **工程深度**: 回头系统补CS50W完整项目、MIT 6.1020并发单元、UW–Madison Unit 2(RAG/监控)
-- **产品深化**: 用[场景A技术栈](06-附录_技术栈选型与AI开发SOP.md)持续交付团队内部工具; 用场景B栈迭代独立产品
+- **AI原理深化**: 在阶段四CS50 AI基础上, 深入RAG架构与生产监控(见UW–Madison Unit 2), 或DeepLearning.AI的模型系列课
+- **产品深化**: 用[场景A技术栈](07-附录_技术栈选型与AI开发SOP.md)持续交付团队内部工具; 用场景B栈迭代独立产品
 - **方法论迭代**: 关注 Missing Semester 与 Anthropic Academy 的课程更新, AI工程实践演化极快
